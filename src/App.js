@@ -19,8 +19,8 @@ const App = () => {
       </div>
 
         <footer>
-          <a title="Instagran" href="https://www.instagram.com/vistadengo/" target="_blank" ><img src={insta} alt="icon instagran"/></a>
-          <a title="Shopee" href="https://shopee.com.br/shop/394701984/" target="_blank" rel="noopener noreferrer"><img src={shopee} alt=""/></a>
+          <a title="Instagran" href="https://www.instagram.com/vistadengo/" target="_blank" without rel="noreferrer" ><img src={insta} alt="icon instagran"/></a>
+          <a title="Shopee" href="https://shopee.com.br/shop/394701984/" target="_blank" without rel="noreferrer"><img src={shopee} alt=""/></a>
         </footer>
     </>
   )
