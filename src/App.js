@@ -1,25 +1,28 @@
 import React from 'react';
 import logoDengo from './logo.svg'
+import insta from './insta.svg'
+import shopee from './shopee.svg'
+
+import './App.css'
+
 
 const App = () => {
 
   return (
-    <div style={{
-      height: '100vh',
-      width: '100vw',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center'
-
-    }}>
-      <div style={{
-      alignSelf: 'center'
-
-    }}>
-        <img src={logoDengo} alt="Logo DENGO"/>
-        <p>Em breve!</p>
+    <>
+      <div className="container">
+        <div>
+          <img src={logoDengo} alt="Logo DENGO"/>
+          <p className="loja">loja <span>DENGO</span> </p>
+          <p className="breve">Em breve!</p>
+        </div>
       </div>
-    </div>
+
+        <footer>
+          <a title="Instagran" href="https://www.instagram.com/vistadengo/" target="_blank" ><img src={insta} alt="icon instagran"/></a>
+          <a title="Shopee" href="https://shopee.com.br/shop/394701984/" target="_blank" rel="noopener noreferrer"><img src={shopee} alt=""/></a>
+        </footer>
+    </>
   )
 }
 
